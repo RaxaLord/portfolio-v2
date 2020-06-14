@@ -1,0 +1,68 @@
+#desktop {
+  color: white;
+}
+
+.icons {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.icons .name {
+  border: 1px solid transparent;
+  padding: 1px;
+}
+
+.icons.focus .name {
+  background: #000084;
+}
+
+.icons.border .name {
+  border: 1px dotted white;
+}
+
+.icons img {
+  width: 40px;
+}
+
+#bottombar {
+  background: #bdbdbd;
+  height: 26px;
+  padding: 2px;
+  border-top: 2px solid white;
+  box-shadow: 0 0 0 2px #dedede;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+}
+
+#start {
+  border: 2px solid;
+  border-color: white black black white;
+  display: inline-block;
+  padding: 3px;
+  padding-left: 20px;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8329/start.png');
+  background-repeat: no-repeat;
+  background-position: 2px 50%;
+}
+
+.task {
+  border: 2px solid;
+  border-color: white black black white;
+  display: inline-block;
+  padding: 3px;
+  width: 140px;
+}
+
+#right {
+  border: 2px solid;
+  border-color: #7b7b7b white white #7b7b7b;
+  padding: 3px;
+  float: right;
+}

@@ -6,7 +6,7 @@ export default function Projects() {
     <div className='project-container'>
       <h3>Projects</h3>
       <div className='project-wrapper'>
-        <div class='window project'>
+        {/* <div class='window project'>
           <div class='title-bar'>
             <div class='title-bar-text'>Explor - Find your place</div>
             <div class='title-bar-controls'>
@@ -41,6 +41,20 @@ export default function Projects() {
             </p>
             <button>View Project</button>
           </div>
+        </div> */}
+
+        <div>
+          <img
+            src='https://media.giphy.com/media/XedxBuHuek40r1J1a7/giphy.gif'
+            alt='explor'
+            className='explor'
+          />
+
+          <img
+            src='https://media.giphy.com/media/lp26ix2nN81YKPs7UO/giphy.gif'
+            alt='drip'
+            className='drip'
+          />
         </div>
       </div>
 

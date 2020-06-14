@@ -9,5 +9,10 @@
   width: 60%;
   margin: auto;
   margin-top: 18%;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+}
+
+#splash-link {
+  text-decoration: underline;
+  color: white;
 }

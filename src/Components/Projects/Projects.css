@@ -5,6 +5,20 @@
 .project-wrapper {
   display: flex;
   justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+}
+
+.project-wrapper img {
+  margin-bottom: 40px;
+}
+
+.explor {
+  float: left;
+}
+
+.drip {
+  float: right;
 }
 
 .project {
