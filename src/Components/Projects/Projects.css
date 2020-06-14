@@ -1,20 +1,25 @@
-.project-wrapper {
+.project-container {
   margin-bottom: 50px;
 }
 
-.project {
-  width: 90%;
-  height: 300px;
-  background-color: aqua;
-  border-radius: 15px;
-  margin-bottom: 15px;
+.project-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
-.project_content {
+.project {
+  width: 45%;
+  height: 300px;
+  /* background-color: aqua;
+  display: flex;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* .project_content {
   width: 400px;
   height: 200px;
-  /* background-color: azure; */
-}
+  background-color: azure;
+} */

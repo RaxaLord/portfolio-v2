@@ -8,11 +8,13 @@
   width: 650px;
   font-size: 25px;
   margin-bottom: 25px;
+  color: white;
 }
 
 .heading-sub-info {
   font-style: italic;
   font-size: 20px;
+  color: #9ba2a5;
 }
 
 .main {
