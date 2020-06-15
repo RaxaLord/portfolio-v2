@@ -67,6 +67,7 @@ export default class Contact extends Component {
                     type='email'
                     name='email'
                     placeholder='yourname@email.com'
+                    required
                   />
                 </div>
 
@@ -77,6 +78,7 @@ export default class Contact extends Component {
                     name='message'
                     rows='8'
                     placeholder='What would you like to say?'
+                    required
                   ></textarea>
                 </div>
 
