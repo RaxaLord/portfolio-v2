@@ -1,9 +1,11 @@
 .contact {
+  width: 90%;
+  margin: auto;
   margin-bottom: 125px;
 }
 
 .contact-form {
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
