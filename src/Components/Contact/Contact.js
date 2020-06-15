@@ -30,8 +30,8 @@ export default class Contact extends Component {
               <br />
               <hr />
               <br />
-              Please feel free to send any messages to the email in located in
-              the lower right of your monitor or try again soon!
+              Please feel free to send any messages to the email located in the
+              lower right of your monitor or try again soon!
             </p>
             <br />
 
