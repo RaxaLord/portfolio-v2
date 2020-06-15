@@ -40,7 +40,7 @@ export default class Contact extends Component {
         </div>
 
         {/* *** windows version ***  */}
-        {/* <div class='window'>
+        <div class='window'>
           <div class='title-bar'>
             <div class='title-bar-text'>Want to send me an email?</div>
             <div class='title-bar-controls'>
@@ -49,26 +49,43 @@ export default class Contact extends Component {
               <button aria-label='Close'></button>
             </div>
           </div>
+
           <div class='window-body'>
-            <div className='contact-form'>
-              <div class='field-row-stacked'>
-                <label>Email</label>
-                <input type='text' placeholder='yourname@email.com' />
-              </div>
+            <form name='contact' method='POST' data-netlify='true'>
+              <input type='hidden' name='form-name' value='contact' />
+              <div className='contact-form'>
+                <div class='field-row-stacked'>
+                  <label>Email</label>
+                  <input
+                    type='email'
+                    name='email'
+                    placeholder='yourname@email.com'
+                  />
+                </div>
 
-              <div class='field-row-stacked'>
-                <label>Message</label>
-                <textarea
-                  type='text'
-                  rows='8'
-                  placeholder='What would you like to say?'
-                ></textarea>
-              </div>
+                <div class='field-row-stacked'>
+                  <label>Message</label>
+                  <textarea
+                    // type='message'
+                    name='message'
+                    rows='8'
+                    placeholder='What would you like to say?'
+                  ></textarea>
+                </div>
 
-              <button className='submit-btn'>Submit</button>
-            </div>
+                <div className='field'>
+                  <div data-netlify-recaptcha='true'></div>
+                </div>
+
+                <input
+                  className='submit-btn'
+                  type='submit'
+                  value='Send Message'
+                />
+              </div>
+            </form>
           </div>
-        </div> */}
+        </div>
 
         {/* *** different version ***  */}
         {/* <div className='contact-form'>
