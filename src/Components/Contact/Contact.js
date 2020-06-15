@@ -55,6 +55,8 @@ export default class Contact extends Component {
               Please feel free to send me a message with any questions you may
               have and I will respond with an email as quickly as I can
             </p>
+            <br />
+            <br />
 
             <form name='contact' method='POST' data-netlify='true'>
               <input type='hidden' name='form-name' value='contact' />
