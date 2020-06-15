@@ -19,7 +19,9 @@ export default function Splash() {
         <br />
         <br />
 
-        <p>Just kidding, you just made it to my portfolio!</p>
+        <p className='warning'>
+          Just kidding, you just made it to my portfolio!
+        </p>
         <br />
         <br />
         <p class='continue'>

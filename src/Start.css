@@ -38,7 +38,8 @@
   right: 0;
   font-size: 14px;
   position: fixed;
-  bottom: 0;
+  bottom: 2.5px;
+  z-index: 4;
 }
 
 #start {
@@ -58,6 +59,7 @@
   display: inline-block;
   padding: 3px;
   width: 140px;
+  /* margin-left: 5px; */
 }
 
 #right {

@@ -7,7 +7,7 @@ export default class Contact extends Component {
 
     this.state = {
       name: '',
-      comapany: '',
+      email: '',
       message: '',
     };
   }
@@ -17,7 +17,37 @@ export default class Contact extends Component {
       <div className='contact'>
         <h3>Contact</h3>
 
-        <div className='contact-form'>
+        <div class='window'>
+          <div class='title-bar'>
+            <div class='title-bar-text'>Want to send me an email?</div>
+            <div class='title-bar-controls'>
+              <button aria-label='Minimize'></button>
+              <button aria-label='Maximize'></button>
+              <button aria-label='Close'></button>
+            </div>
+          </div>
+          <div class='window-body'>
+            <div className='contact-form'>
+              <div class='field-row-stacked'>
+                <label>Email</label>
+                <input type='text' placeholder='yourname@email.com' />
+              </div>
+
+              <div class='field-row-stacked'>
+                <label>Message</label>
+                <textarea
+                  type='text'
+                  rows='8'
+                  placeholder='What would you like to say?'
+                ></textarea>
+              </div>
+
+              <button className='submit-btn'>Submit</button>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className='contact-form'>
           <div class='field-row-stacked'>
             <label for='text18'>Name</label>
             <input id='text18' type='text' />
@@ -33,7 +63,7 @@ export default class Contact extends Component {
           </div>
 
           <button className='submit-btn'>Submit</button>
-        </div>
+        </div> */}
       </div>
     );
   }

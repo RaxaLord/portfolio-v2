@@ -5,62 +5,46 @@ export default function Skills() {
   return (
     <div className='skills-container'>
       <h3>Skills</h3>
-      {/* <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Express</li>
-        <li>Holder</li>
-        <li>Holder</li>
-        <li>Holder</li>
-        <li>Holder</li>
-      </ul> */}
 
       <div className='skills-wrapper'>
         <ul class='tree-view'>
-          <li>Table of Contents</li>
-          <li>What is web development?</li>
           <li>
-            CSS
+            Front-End
             <ul>
-              <li>Selectors</li>
-              <li>Specificity</li>
-              <li>Properties</li>
+              <li>JavaScript</li>
+              <li>React Js</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>SASS/SCSS</li>
             </ul>
           </li>
+
           <li>
-            <details open>
-              <summary>JavaScript</summary>
-              <ul>
-                <li>Avoid at all costs</li>
-                <li>
-                  <details>
-                    <summary>Unless</summary>
-                    <ul>
-                      <li>Avoid</li>
-                      <li>
-                        <details>
-                          <summary>At</summary>
-                          <ul>
-                            <li>Avoid</li>
-                            <li>At</li>
-                            <li>All</li>
-                            <li>Cost</li>
-                          </ul>
-                        </details>
-                      </li>
-                      <li>All</li>
-                      <li>Cost</li>
-                    </ul>
-                  </details>
-                </li>
-              </ul>
-            </details>
+            Back-End
+            <ul>
+              <li>Node Js</li>
+              <li>PostgreSQL</li>
+            </ul>
           </li>
-          <li>HTML</li>
-          <li>Special Thanks</li>
+
+          <li>
+            More
+            <ul>
+              <li>NPM</li>
+              <li>JEST</li>
+              <li>Rellax</li>
+            </ul>
+          </li>
+
+          <li>
+            Creative
+            <ul>
+              <li>Photoshop</li>
+              <li>Lightroom</li>
+              <li>Primiere Pro</li>
+              <li>XD</li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>

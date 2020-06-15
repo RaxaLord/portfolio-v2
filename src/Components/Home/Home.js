@@ -4,9 +4,11 @@ import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Contact from '../Contact/Contact';
 
+import './Home.css';
+
 export default function Home() {
   return (
-    <div>
+    <div className='home'>
       <Main />
       <Projects />
       <Skills />

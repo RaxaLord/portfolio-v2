@@ -3,7 +3,14 @@ body {
   font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #018080;
+  /* background-color: #018080; */
+
+  background: rgb(0, 163, 163);
+  background: radial-gradient(
+    circle,
+    rgba(0, 163, 163, 1) 0%,
+    rgba(1, 128, 128, 1) 100%
+  );
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

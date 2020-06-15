@@ -1,5 +1,5 @@
 .contact {
-  margin-bottom: 100px;
+  margin-bottom: 125px;
 }
 
 .contact-form {
@@ -12,6 +12,5 @@ textarea {
 }
 
 .submit-btn {
-  float: right;
-  margin-top: 8px;
+  margin-top: 10px;
 }
