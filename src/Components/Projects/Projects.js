@@ -37,7 +37,7 @@ export default function Projects() {
                 </p>
                 <br />
                 <br />
-                <button>View Project</button>
+                {/* <button>View Project</button> */}
                 <a
                   href='https://github.com/RaxaLord/final_project'
                   target='_blank'
@@ -86,7 +86,7 @@ export default function Projects() {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <button>View Project</button>
+                    {/* <button>View Project</button> */}
                   </a>
                   <a
                     href='https://github.com/RaxaLord/peersonal-project_drip'
