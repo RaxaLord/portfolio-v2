@@ -4,3 +4,8 @@
   margin: auto;
   margin-top: 18%;
 }
+
+#github_text {
+  color: black;
+  text-decoration: none;
+}

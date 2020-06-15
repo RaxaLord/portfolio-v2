@@ -14,9 +14,27 @@ export default function Home() {
       <Skills />
       <Contact />
       <div id='bottombar'>
-        <div id='right'>imRaxa@outlook.com</div>
+        <div id='right'>info@workwithraxa.com</div>
         <div id='start'>Start</div>
-        <div class='task'>Internet Explorer</div>
+        {/* <div class='task'>Internet Explorer</div> */}
+        <div class='task'>
+          <a
+            href='https://github.com/RaxaLord'
+            target='__blank'
+            id='github_text'
+          >
+            GitHub
+          </a>
+        </div>
+        <div class='task'>
+          <a
+            href='https://www.linkedin.com/in/raxahansana/'
+            target='__blank'
+            id='github_text'
+          >
+            LinkedIn
+          </a>
+        </div>
       </div>
     </div>
   );

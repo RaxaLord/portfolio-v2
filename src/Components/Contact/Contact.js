@@ -19,6 +19,29 @@ export default class Contact extends Component {
 
         <div class='window'>
           <div class='title-bar'>
+            <div class='title-bar-text'>ERROR</div>
+            <div class='title-bar-controls'>
+              <button aria-label='Close'></button>
+            </div>
+          </div>
+          <div class='window-body'>
+            <p>
+              Sorry, this portion of the website is currently being worked on.
+              <br />
+              <hr />
+              <br />
+              Please feel free to send any messages to the email in located in
+              the lower right of your monitor or try again soon!
+            </p>
+            <br />
+
+            <button disabled>I'LL BE BACK SOON!</button>
+          </div>
+        </div>
+
+        {/* *** windows version ***  */}
+        {/* <div class='window'>
+          <div class='title-bar'>
             <div class='title-bar-text'>Want to send me an email?</div>
             <div class='title-bar-controls'>
               <button aria-label='Minimize'></button>
@@ -45,8 +68,9 @@ export default class Contact extends Component {
               <button className='submit-btn'>Submit</button>
             </div>
           </div>
-        </div>
+        </div> */}
 
+        {/* *** different version ***  */}
         {/* <div className='contact-form'>
           <div class='field-row-stacked'>
             <label for='text18'>Name</label>
