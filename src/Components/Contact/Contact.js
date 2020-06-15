@@ -17,7 +17,7 @@ export default class Contact extends Component {
       <div className='contact'>
         <h3>Contact</h3>
 
-        <div class='window'>
+        {/* <div class='window'>
           <div class='title-bar'>
             <div class='title-bar-text'>ERROR</div>
             <div class='title-bar-controls'>
@@ -37,12 +37,12 @@ export default class Contact extends Component {
 
             <button disabled>I'LL BE BACK SOON!</button>
           </div>
-        </div>
+        </div> */}
 
         {/* *** windows version ***  */}
         <div class='window'>
           <div class='title-bar'>
-            <div class='title-bar-text'>Want to send me an email?</div>
+            <div class='title-bar-text'>Want to send me an message?</div>
             <div class='title-bar-controls'>
               <button aria-label='Minimize'></button>
               <button aria-label='Maximize'></button>
@@ -51,6 +51,11 @@ export default class Contact extends Component {
           </div>
 
           <div class='window-body'>
+            <p>
+              Please feel free to send me a message with any questions you may
+              have and I will respond with an email as quickly as I can
+            </p>
+
             <form name='contact' method='POST' data-netlify='true'>
               <input type='hidden' name='form-name' value='contact' />
               <div className='contact-form'>
