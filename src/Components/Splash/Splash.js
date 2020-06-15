@@ -23,7 +23,6 @@ export default function Splash() {
           Just kidding, you just made it to my portfolio!
         </p>
         <br />
-        <p>test test test number 2</p>
         <br />
         <p class='continue'>
           Press{' '}
