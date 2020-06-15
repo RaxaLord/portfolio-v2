@@ -7,6 +7,7 @@ export default function Splash() {
     <div class='container'>
       <div class='msg' align='center'>
         <p class='highlight'>Windows</p>
+        <br />
         <p>
           A fatal exception 0E has occured at 028:C00068F8 in VxD VMM(01)
           000059F8. The current application will be terminated.
