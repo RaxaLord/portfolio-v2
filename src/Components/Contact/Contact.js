@@ -86,13 +86,11 @@ export default class Contact extends Component {
                   <div data-netlify-recaptcha='true'></div>
                 </div>
 
-                <button
+                <input
                   className='submit-btn'
                   type='submit'
                   value='Send Message'
-                >
-                  Send Message
-                </button>
+                />
               </div>
             </form>
           </div>
