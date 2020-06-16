@@ -58,7 +58,7 @@ export default class Contact extends Component {
             <br />
             <br />
 
-            <form name='contact' method='POST' data-netlify='true'>
+            <form name='Contact_Form' method='POST' data-netlify='true'>
               <input type='hidden' name='form-name' value='contact' />
               <div className='contact-form'>
                 <div class='field-row-stacked'>
