@@ -24,12 +24,15 @@ export default function Skills() {
             <ul>
               <li>Node Js</li>
               <li>PostgreSQL</li>
+              <li>Heroku</li>
+              <li>Netlify</li>
             </ul>
           </li>
 
           <li>
             More
             <ul>
+              <li>Git/GitHub</li>
               <li>NPM</li>
               <li>JEST</li>
               <li>Rellax</li>

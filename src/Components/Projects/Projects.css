@@ -25,11 +25,12 @@
 }
 
 .explor-window {
-  z-index: 3;
+  z-index: 2;
   width: 450px;
   position: absolute;
   right: -60%;
   top: 60%;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .drip-holder {
@@ -40,6 +41,7 @@
 .drip {
   float: right;
   position: relative;
+  z-index: 3;
 }
 
 .drip-window {
@@ -47,6 +49,8 @@
   position: absolute;
   left: -350px;
   top: 40%;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  z-index: 4;
 }
 
 .window-body {

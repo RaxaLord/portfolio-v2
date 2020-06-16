@@ -43,7 +43,7 @@ export default function Projects() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button>GitHub</button>
+                  <button>View GitHub Repo</button>
                 </a>
               </div>
             </div>
@@ -75,12 +75,12 @@ export default function Projects() {
                   to users who like to buy/sell/trade new and useds goods!
                   <br />
                   <br />
-                  <span className='warning'>
+                  {/* <span className='warning'>
                     *disclamer, the hosted project is currently not functioning
                     correctly*
                   </span>
                   <br />
-                  <br />
+                  <br /> */}
                   <a
                     href='http://64.227.48.205:4040/#/'
                     target='_blank'
@@ -93,7 +93,7 @@ export default function Projects() {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <button>GitHub</button>
+                    <button>View GitHub Repo</button>
                   </a>
                 </p>
               </div>

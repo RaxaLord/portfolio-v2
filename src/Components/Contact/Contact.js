@@ -40,7 +40,7 @@ export default class Contact extends Component {
         </div> */}
 
         {/* *** windows version ***  */}
-        <div class='window'>
+        <div class='window form'>
           <div class='title-bar'>
             <div class='title-bar-text'>Want to send me an message?</div>
             <div class='title-bar-controls'>
@@ -86,11 +86,13 @@ export default class Contact extends Component {
                   <div data-netlify-recaptcha='true'></div>
                 </div>
 
-                <input
+                <button
                   className='submit-btn'
                   type='submit'
                   value='Send Message'
-                />
+                >
+                  Send Message
+                </button>
               </div>
             </form>
           </div>
