@@ -62,11 +62,21 @@ export default class Contact extends Component {
               <input type='hidden' name='form-name' value='contact' />
               <div className='contact-form'>
                 <div class='field-row-stacked'>
+                  <label>Name</label>
+                  <input
+                    type='text'
+                    name='name'
+                    placeholder='FirstName LastName'
+                    required
+                  />
+                </div>
+
+                <div class='field-row-stacked'>
                   <label>Email</label>
                   <input
                     type='email'
                     name='email'
-                    placeholder='yourname@email.com'
+                    placeholder='FirstLast123@Email.com'
                     required
                   />
                 </div>
@@ -77,7 +87,7 @@ export default class Contact extends Component {
                     // type='message'
                     name='message'
                     rows='8'
-                    placeholder='What would you like to say?'
+                    placeholder='What can we create together?'
                     required
                   ></textarea>
                 </div>
