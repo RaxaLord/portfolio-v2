@@ -7,6 +7,43 @@ export default function Projects() {
       <h3>Projects</h3>
       <div className='project-wrapper'>
         <container>
+          <div className='tony-banks-holder'>
+            <img
+              src='https://media.giphy.com/media/KEYu5SVPAVGHUO4ict/giphy.gif'
+              alt='tony banks website'
+              className='tony-banks grow'
+            />
+
+            <div class='window tony-banks-window grow1'>
+              <div class='title-bar'>
+                <div class='title-bar-text'>Tony Banks - Artist Website</div>
+                <div class='title-bar-controls'>
+                  <button aria-label='Minimize'></button>
+                  <button aria-label='Maximize'></button>
+                  <button aria-label='Close'></button>
+                </div>
+              </div>
+              <div class='window-body'>
+                <p>
+                  This website was built using only HTML + CSS for my friend
+                  Tony. It is a single page application that holds his newest
+                  music + video, it also hosts a contact form for people to send
+                  him messages.
+                </p>
+                <br />
+                <br />
+                {/* <button>View Project</button> */}
+                <a
+                  href='https://tony-banks-official.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button>View WebSite</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className='explor-holder'>
             <img
               src='https://media.giphy.com/media/XedxBuHuek40r1J1a7/giphy.gif'
